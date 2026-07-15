@@ -1,0 +1,27 @@
+{
+  "name": "genpark-campus-collaborative-workspace-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Campus human-agent workspace thread dispatcher.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "agentic",
+    "workspace",
+    "campus"
+  ],
+  "inputs": {
+    "human_feedback": {
+      "type": "string"
+    },
+    "active_agents": {
+      "type": "array"
+    }
+  },
+  "outputs": {
+    "message_queue": {
+      "type": "array"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
